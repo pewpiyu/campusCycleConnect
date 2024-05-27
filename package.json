@@ -1,5 +1,5 @@
 {
-  "name": "second_hand_sell",
+  "name": "CampusCycleConnect",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,7 +13,7 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Upendra Dhamala",
+  "author": "Piyush Singh",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",
